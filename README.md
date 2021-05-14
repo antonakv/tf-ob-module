@@ -2,7 +2,7 @@
 
 ## Intro
 
-This manual is dedicated to run terraform code with module
+This manual explains how to use terraform module
 
 Tested on Mac OS X.
 
@@ -37,6 +37,14 @@ Resolving deltas: 100% (1/1), done.
 
 ```bash
 cd tf-ob-module
+```
+
+## How to use module
+- In order to use module add to main.tf root file following statement
+```bash
+module "mymodule" {
+    source = "./modules/mymodule"
+}
 ```
 
 ## Run terraform code
