@@ -18,7 +18,7 @@ Tested on Mac OS X.
 - In order to use module add to main.tf root file following statement
 ```bash
 module "mymodule" {
-    source = "github.com/antonakv/tf-ob-module"
+    source = "github.com/antonakv/tf-ob-module/mymodule"
 }
 ```
 
